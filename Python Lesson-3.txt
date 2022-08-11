@@ -1,0 +1,73 @@
+# a = 'tek' if 5 % 2 else 'cut'
+
+# name = 'Aslan'
+# counter = 0
+# while counter < len(name):
+#     print(name[counter])
+#     counter += 1
+
+# vegetables = ['xiyar', 'pomidor', 'sogan', 'yerkoku', 'sarimsaq', 'semeni']
+# counter = 0
+# while counter < len(vegetables):
+#     vegetable = vegetables[counter]
+#     if vegetable[0] == 's':
+#         print(vegetable)
+#     counter += 1
+
+# counter = 1000
+# result=0
+# while counter >= 100:
+#     result += counter
+#     counter -= 1
+
+# print(result)
+
+
+# ['kitab', 'defter', 'qelem', 'karandas', 'jurnal', 'pozan', 'vereq'] arrayinin elementleri arasında 5 hərfli olanların son hərfini while ilə göstərin. 5 hərfli olmayanları continue deyərək keçin.
+
+# array = ['kitab', 'defter', 'qelem', 'karandas', 'jurnal', 'pozan', 'vereq']
+# counter = 0 
+
+# while counter < len(array):
+#     el = array[counter]
+#     if len(el) != 5:
+#         counter += 1
+#         continue
+#     print(el[-1])
+    # counter += 1
+
+
+# counter = 100_000
+
+# while counter > 0:
+#     if not counter % 9999:
+#         print(counter)
+#         break
+#     counter -= 1
+
+
+# result = ''
+# saitler = 'aioue'
+# for char in 'Men her gun Javascript oyrenirem':
+#     if char not in saitler:
+#         result += char
+
+# print(result)
+
+
+# a = 5
+# b = 0
+
+# res = a or b
+# res = a and b
+# print(res)
+
+correct_pass = True
+user = 'Elmeddin'
+
+# if correct_pass:
+#     current_user = user
+# else:
+#     current_user = False
+
+# current_user = correct_pass and user
